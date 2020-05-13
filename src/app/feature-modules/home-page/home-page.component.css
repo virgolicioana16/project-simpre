@@ -1,6 +1,11 @@
-.home-card{
-    width:100vw;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 10%;
+.home-card {
+  width: 75vw;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.vl {
+  border-left: 3px solid whitesmoke;
+  height: 925px;
 }

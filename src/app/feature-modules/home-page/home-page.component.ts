@@ -12,7 +12,6 @@ export class HomePageComponent implements OnInit {
     private router: Router) { }
 
   ngOnInit(): void {
-
   }
 
   navigateToCocktails(){
