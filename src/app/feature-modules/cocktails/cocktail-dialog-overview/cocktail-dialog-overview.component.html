@@ -1,0 +1,18 @@
+<h1 mat-dialog-title>{{data.strDrink}} Overview</h1>
+<div mat-dialog-content>
+
+    <div class= 'row'>
+        <p>Glass:</p>
+        <input matInput value={{data.strGlass}} [disabled]=true>
+    </div>
+
+    <div class= 'row'>
+        <p>Ingredients:</p>
+        <input matInput value={{data.strIngredient1}}{{placeholder}}{{data.strMeasure1}} [disabled]=true>
+        <input matInput value={{data.strIngredient2}}{{placeholder}}{{data.strMeasure2}} [disabled]=true>
+        <input matInput value={{data.strIngredient3}}{{placeholder}}{{data.strMeasure3}} [disabled]=true>
+        <input matInput *ngIf="data.strIngredient4" value={{data.strIngredient4}}{{placeholder}}{{data.strMeasure4}} [disabled]=true>
+        <input matInput *ngIf="data.strIngredient5" value={{data.strIngredient5}}{{placeholder}}{{data.strMeasure5}} [disabled]=true>
+    </div>
+
+</div>

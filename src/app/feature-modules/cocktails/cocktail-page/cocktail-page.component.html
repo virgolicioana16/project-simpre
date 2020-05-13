@@ -1,0 +1,9 @@
+<app-navbar></app-navbar>
+<app-search-bar (searchedValue)="getSearchedValue($event)"></app-search-bar>
+
+<div class="row">
+  <ng-container *ngIf="searchedValue">
+    <app-search-result [cocktailName]="searchedValue"></app-search-result>
+  </ng-container>
+
+</div>
